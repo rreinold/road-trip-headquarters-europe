@@ -32,7 +32,7 @@ axios
 	  })
    .then(function(){
    		averages = calculateAverages(coordinates)
-   		console.log(averages)
+   		console.log("Road Trip Headquarters: " + JSON.stringify(averages))
    })
    .catch(function (error) {
     console.log(error);
